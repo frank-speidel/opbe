@@ -1,0 +1,16 @@
+[project]
+name = "opbe"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[all]>=0.115.6",
+    "sqlmodel>=0.0.22",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.13.0",
+    "ruff>=0.8.3",
+]
